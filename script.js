@@ -12,9 +12,9 @@ function fixNav() {
 
 const textEl = document.getElementById('text')
 const speedEl = document.getElementById('speed')
-const text = '大家好我們是第十八組!!!'
+const text = '組員名單(可自行調整速度!!!)'
 let idx = 1
-let speed = 300 / speedEl.value
+let speed = 500 / speedEl.value
 
 writeText()
 
