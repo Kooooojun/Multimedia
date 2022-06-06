@@ -22,6 +22,10 @@ body {
 
 /*typing-demo*/
 .wrapper {
+  background-image: url(./image/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -29,6 +33,7 @@ body {
 }
 
 .typing-demo {
+  color: black;
   width: 22ch;
   animation: typing 4s steps(22),
   blink .5s step-end infinite alternate;
