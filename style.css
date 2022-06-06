@@ -20,6 +20,38 @@ body {
   /*overflow: hidden;*/
 }
 
+/*typing-demo*/
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 4s steps(22),
+  blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 7px solid;
+  font-family: monospace;
+  font-size: 6em;
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+}
+
+@keyframes blink{
+  50%{
+    border-color: transparent;
+  }
+}
+/*typing-demo*/
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -79,7 +111,7 @@ body {
 .hero {
   background-image: url('/image/poster.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 500px;
   background-position: bottom center;
   height: 100vh;
   color: #fff;
@@ -91,8 +123,6 @@ body {
   margin-bottom: 20px;
   z-index: -2;
 }
-
-
 
 
 .auto{
@@ -107,7 +137,7 @@ input {
   width: 50px;
   padding: 5px;
   font-size: 18px;
-  background-color: #CCCCFF;
+  background-color: #FFF;
   border: none;
   text-align: center;
 }
@@ -115,3 +145,4 @@ input {
 input:focus {
   outline: none;
 }
+
