@@ -11,7 +11,6 @@ body {
   background-color: #CCCCFF;
   background-position: center;
   padding-bottom: 300px;
-
   /*display: flex;*/
   /*flex-direction: column;*/
   /*align-items: center;*/
@@ -129,17 +128,32 @@ body {
   align-items: center;
   text-align: left;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   z-index: -2;
 }
 
+.hero2 {
+  width: 48%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  text-align: center;
+  float: right;
+  margin-bottom: 40px;
+}
 
+section > h2 {
+  position: absolute;
+  top: 1600px;
+}
 .auto{
   position: absolute;
-  bottom: 20px;
+  top: 1550px;
+  /*bottom: 20px;*/
   background: rgba(0, 0, 0, 0.1);
-  padding: 10px 20px;
-  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
 }
 .copywriter{
   bottom: 20px;
@@ -154,7 +168,7 @@ body {
 
 input {
   width: 50px;
-  padding: 5px;
+  padding: 4px;
   font-size: 18px;
   background-color: #FFF;
   border: none;
@@ -165,3 +179,7 @@ input:focus {
   outline: none;
 }
 
+.team {
+  position: absolute;
+  top: 1700px;
+}
