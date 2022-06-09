@@ -119,7 +119,7 @@ body {
 }
 
 .hero {
-  background-image: url('/image/poster.png');
+  background-image: url(./image/poster.png);
   background-repeat: no-repeat;
   background-size: 500px;
   background-position: 84%;
